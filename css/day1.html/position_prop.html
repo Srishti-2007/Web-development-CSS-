@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            margin: 10px;
+            border: 2px solid black;
+        }
+        div{
+            border: 2px solid red;
+        }
+        .img2{
+            /* position: relative;
+            top: 100px;
+            left: 200px; */
+            /* position: absolute;
+            top: 100px; */
+
+        }
+        .container{
+            height: 3000px;
+            background-color: brown;
+        }
+        .img4{
+            position: fixed;
+        }
+        .img3{
+            position: sticky;
+            top: 100px;
+        }
+        .box{
+            height: 7000px;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="image.png" alt="pic1" class="img1"/>
+         <img src="image.png" alt="pic1" class="img2"/>
+        <img src="image.png" alt="pic1" class="img3"/>
+        <img src="image.png" alt="pic1" class="img4"/>
+
+    </div>
+    <div class="box"></div>
+</body>
+</html>
