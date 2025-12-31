@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* global variable */
+        :root{
+           --color:rgb(26, 26, 114);
+           --seccolor:rgb(134, 68, 68);
+           --depad:12px;
+        }
+        .container{
+            /* background-color: var(--seccolor, red); */
+             background-color: var(--seccolor);
+             padding: var(--depad);
+
+        }
+        ul{
+            /* local variable */
+            --color:red;   
+            --my:rgb(211, 42, 135);
+            background-color: var(--my);
+            display: flex;
+             justify-content: space-between;
+        }
+        ul li{
+            list-style: none;
+           
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <ul>
+            <li>Home</li>
+            <li>about</li>
+            <li>contact</li>
+        </ul>
+    </div>
+    <div class="container">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis laborum obcaecati quidem debitis sit quae. Vel labore exercitationem cupiditate quibusdam.
+    </div>
+</body>
+</html>
